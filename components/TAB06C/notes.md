@@ -11,7 +11,13 @@ Known data from listing:
 - Isolation level: 0.66/0.72kV
 - Power-frequency withstand: 3kV/1min
 
+Mechanical data now used from drawing provided by user:
+- Body OD: 25.2 mm
+- Body height: 16.1 mm
+- Center slot: 8.15 x 2.25 mm (mechanical reference only; not a PCB hole)
+- Carrier board pad spacing S1-S2: 15.8 mm center-to-center
+- Pad size: 6 x 2 mm
+
 Important:
-- The footprint included here is a conservative placeholder based on the visible package style, not a verified mechanical drawing.
-- Verify pad spacing, body OD, body ID, and pin diameter against a real datasheet before manufacturing.
-- Symbol is usable now; footprint needs mechanical validation.
+- The busbar is already integrated through the transformer body; footprint therefore has only PCB pads and body outline.
+- Drill/pad geometry is based on the drawing description and should still be checked against the original PDF before production.
