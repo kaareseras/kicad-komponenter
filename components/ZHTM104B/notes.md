@@ -17,4 +17,5 @@ Mechanical data derived from EasyEDA footprint:
 Notes:
 - This is treated as a new current transformer part, separate from TAB06C.
 - Footprint body outline was traced from EasyEDA silkscreen geometry.
+- Included 3D model is a simplified body model derived from footprint and datasheet visuals, intended for placement/clearance checks rather than exact mechanical verification.
 - Electrical specifications still need confirmation from the PDF datasheet.
