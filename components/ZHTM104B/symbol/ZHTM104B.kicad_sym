@@ -12,6 +12,9 @@
     (property "Datasheet" "" (at 0 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "20A/10mA current transformer, 2000:1, 0.02kHz-10kHz, 3.2kV isolation" (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "ZHTM104B_0_1"
       (circle (center 0 0) (radius 5.08)
         (stroke (width 0.254) (type default))
