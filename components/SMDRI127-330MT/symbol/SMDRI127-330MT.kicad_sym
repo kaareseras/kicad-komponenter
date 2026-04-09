@@ -1,0 +1,16 @@
+(kicad_symbol_lib (version 20231120) (generator "openclaw")
+  (symbol "SMDRI127-330MT" (pin_names (offset 0.508)) (in_bom yes) (on_board yes)
+    (property "Reference" "L" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SMDRI127-330MT" (at 0 -3.81 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "SMDRI127-330MT:IND_SMD_12.3x12.3mm" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 -8.89 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "33uH ±20% power inductor, 5.5A, SXN SMDRI127-330MT, LCSC C9400" (at 0 -11.43 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SMDRI127-330MT_0_1"
+      (polyline (pts (xy -2.54 0) (xy -1.905 1.27) (xy -0.635 -1.27) (xy 0.635 1.27) (xy 1.905 -1.27) (xy 2.54 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+    )
+    (symbol "SMDRI127-330MT_1_1"
+      (pin passive line (at -5.08 0 0) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 5.08 0 180) (length 2.54) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)
